@@ -1,0 +1,3 @@
+﻿On Sun, 4 Mar 2018 at 22:11, perehrat@gmail.com
+<perehrat@gmail.com> wrote:
+Thank you. I have already made some corrections to the justification and scope of study and will consider your tips. I got a few more articles from my supervisor on Thursday. The network I’ll be using will be simulated and I’ll need it to be implemented. That is after I come up with a model for the Intrusion detection system. Thanks and goodnight.
