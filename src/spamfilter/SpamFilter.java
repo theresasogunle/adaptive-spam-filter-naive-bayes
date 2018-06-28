@@ -27,7 +27,7 @@ import java.util.Scanner;
  * @author Tess
  */
 public class SpamFilter {
-//declearing variables
+//declaring variables
     static double spamTotal = 0;
 
     static double hamTotal = 0;
