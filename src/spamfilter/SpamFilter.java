@@ -353,7 +353,7 @@ public class SpamFilter {
         	
                
         File[] files = directory.listFiles();
-       
+        Random rand = new Random();
         for (int i = 0;i < numberOfTimes; i++) {
             File f = files[i];
             if (f.isFile()) {
@@ -366,11 +366,11 @@ public class SpamFilter {
                     ext = "."+split[1];
                 }
                 
-                String nameWithoutExt = path.substring(0, path.indexOf(ext));
+                String name = files[rand.nextInt(files.length)].toString();
                 int j = 1;
              
                 for (; j <=1  ; j++) {
-                    String newName = nameWithoutExt + "_" + j + ext;
+                    String newName = name + "_" + j + ext;
                     System.out.println(newName);
                     File newFile = new File(newName);
                      OutputStream    output=new FileOutputStream(newFile);
